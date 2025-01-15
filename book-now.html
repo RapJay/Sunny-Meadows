@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now</title>
+    <link rel="stylesheet" href="Css/book-now.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="attractions.html">Attractions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Booking Form Section -->
+    <section id="book-now-section">
+        <h1>Book Your Visit</h1>
+        <p>Choose the date and time for your visit.</p>
+
+        <form id="booking-form" action="#" method="POST">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="visit-date">Choose a Date</label>
+            <input type="date" id="visit-date" name="visit-date" required>
+
+            <label for="time-slot">Choose a Time</label>
+            <select id="time-slot" name="time-slot" required>
+                <option value="8am">8:00 AM</option>
+                <option value="9am">9:00 AM</option>
+                <option value="10am">10:00 AM</option>
+                <option value="11am">11:00 AM</option>
+                <option value="1pm">1:00 PM</option>
+                <option value="2pm">2:00 PM</option>
+                <option value="3pm">3:00 PM</option>
+                <option value="4pm">4:00 PM</option>
+            </select>
+
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Farm Adventure. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

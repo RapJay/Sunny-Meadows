@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Sunny Meadows</title>
+    <link rel="stylesheet" href="Css/contact.css"> 
+</head>
+<body>
+
+    <!-- page header -->
+    <header>
+        <h1>Contact Us</h1>
+        <p>If you have any queries please don't hesistate to get in touch.</p>
+    </header>
+
+    <!-- contact information section -->
+    <section class="contact-info">
+        <h2></h2>
+
+        <!-- contact form -->
+        <form action="submit_form.php" method="POST" class="contact-form">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required placeholder="Enter your email address">
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required placeholder="Write your message here" rows="5"></textarea>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+
+        <!-- alternative contact methods -->
+        <div class="other-contacts">
+            <h3>You can also contact us:</h3>
+            <p><strong>Email:</strong> enquiries@sunnymeadows.co.uk </p>
+            <p><strong>Phone:</strong> +44754841276</p>
+            <p><strong>Address:</strong> Sunny Meadows, West Craigie Farm, Queensferry, South Queensferry EH30 9AR </p>
+            <p><strong> Keep updated on our social media:</strong></p>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com">Facebook</a></li>
+                <li><a href="https://www.instagram.com">Instagram</a></li>
+                <li><a href="https://www.twitter.com">Twitter</a></li>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Sunny Meadows </p>
+    </footer>
